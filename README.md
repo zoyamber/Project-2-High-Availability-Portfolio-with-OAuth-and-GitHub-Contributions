@@ -26,12 +26,12 @@ This part of the project focuses on integrating **OAuth 2.0** for secure login a
      - **Authorized JavaScript origins**: Add the URL of your portfolio (e.g., `http://localhost:5000` for local testing).
 
 
-     ![Javascript](./java.png)
+     ![Javascript](./assets/java.png)
 
      - **Authorized redirect URIs**: Add the redirect URI 
 
 
-     ![Redirect URI](./redirect.png)
+     ![Redirect URI](./assets/redirect.png)
 
    - After creating the credentials, copy the **Client ID** and **Client Secret** provided.
 
@@ -57,11 +57,11 @@ This part of the project focuses on integrating **OAuth 2.0** for secure login a
 
 You should be redirected to the Google OAuth login page. After logging in, you will be redirected back to your app, and it should display the logged-in user's email.
 
-![Portfolio Screenshot](./login.png)
+![Portfolio Screenshot](./assets/login.png)
 
-![Portfolio Screenshot](./account.png)
+![Portfolio Screenshot](./assets/account.png)
 
-![Portfolio Screenshot](./correct.png)
+![Portfolio Screenshot](./assets/correct.png)
 
 
 ## Step 2: Adding a GitHub Contributions Section
@@ -74,7 +74,7 @@ You should be redirected to the Google OAuth login page. After logging in, you w
 
 2. **Customize CSS to match your portfolio theme.**
 
-![Portfolio Screenshot](./github.png)
+![Portfolio Screenshot](./assets/github.png)
 
 
 
@@ -110,7 +110,7 @@ This part of the project focuses on configuring a high-availability setup using 
    
    Example Nginx configuration:
    
-   ![Portfolio Screenshot](./nginx.png)
+   ![Portfolio Screenshot](./assets/nginx.png)
 
 4. **Enable the config:**
 
@@ -136,7 +136,7 @@ sudo systemctl restart nginx
 My output looks like  this, but it varies per content
 
 
-   ![Portfolio Screenshot](./localhost.png)
+   ![Portfolio Screenshot](./assets/localhost.png)
 
 
 
@@ -162,7 +162,7 @@ sudo apt install -y haproxy
 
 3. **HAProxy configuration:**
 
-![Portfolio Screenshot](./HAproxy.png)
+![Portfolio Screenshot](./assets/HAproxy.png)
 
 
 4. **Start HAProxy:**
@@ -182,7 +182,7 @@ curl http://localhost
 curl http://<HAProxy_Public_IP>
 ```
 
-![Portfolio Screenshot](./localhost.png)
+![Portfolio Screenshot](./assets/localhost.png)
 
 # Part 3: Scalability and Performance
 
